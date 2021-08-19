@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Shree Accessories</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">		
+</head>
+<body>
+	<div class="header">
+	<section>
+		<h2>Welcome to Shree Acessories</h2>
+	<div class="container">
+		<div class="navbar">
+	<div class="logo"> 
+	<img src="images/logo.jpg" width="200px">
+	          <nav>
+	          	<ul id="MenuItems">
+	          	   <li><a href="index.html">Home</a></li>
+	          	   <li><a href="accessories.html">Accessories</a></li>
+	          	   <li><a href="">About</a></li>
+	          	   <li><a href="contact.html">Contacts</a></li>
+	          	   <li><a href="">Account</a></li>
+	          	   <img src="https://img.icons8.com/material-outlined/24/000000/menu--v2.png" class="menu-icon" onclick="menutoggle()" />
+	          	</ul>
+	          </nav>	
+	</div>
+	<div class="row">
+	<div class="col-2">
+		<h1>Give Your Accessories A <br> New Style!</h1>
+		<p> “Your most unhappy customers are your greatest source of learning"</p>
+		<a href="accessories.html"class="btn">Explore Now &#10170;</a>
+	</div>
+	<div class="col-2">
+		<img src="images/image12.jpeg">
+	</div>	
+	</div>
+	<div>
+	</section>
+	</div>
+	
+
+<!------ featured catagories ------->
+  <div class="categories">
+  	<div class="small-container">
+  		<div class="row">
+    	<div class="col-3">
+    		<img src="images/image5.jpeg" width="300px">
+    	</div>
+    	<div class="col-3">
+    		<img src="images/image6.jpeg" width="300px">
+    	</div>
+    	<div class="col-3">
+    		<img src="images/image1.jpeg" width="300px">
+    	</div>
+    </div>
+  	</div>
+  </div>    
+ <h5>Contact Us On:</h5>
+    		<a href="https://www.instagram.com/shreeee_accessories/">-Instagarm</a>
+
+<!-------js for toggle menu----->
+ <script>
+ 	var MenuItems =document.getElementsByTagName('MenuItems')
+ 	MenuItems.style.maxHeight ="0px"
+ 	function menutoggle() {
+ 		if (MenuItems.style.maxHeight =="200px") {
+ 			else{
+ 				MenuItems.style.maxHeight ="0px"
+ 			}
+ 		}
+ 	}
+ </script>
+	
+</body>
+</html>
